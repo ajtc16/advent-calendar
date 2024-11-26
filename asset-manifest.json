@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab189f54.css",
+    "main.js": "/static/js/main.cabd6900.js",
+    "static/js/453.caa0a741.chunk.js": "/static/js/453.caa0a741.chunk.js",
+    "static/media/lid-image-24.png": "/static/media/lid-image-24.f5b4ec3607327d8e01ad.png",
+    "static/media/lid-image-2.png": "/static/media/lid-image-2.90ed51be288cb3003ad4.png",
+    "static/media/lid-image-23.png": "/static/media/lid-image-23.a0eef3dd9cb8239ede8f.png",
+    "static/media/lid-image-19.png": "/static/media/lid-image-19.7f2ad2eb7fadfdf4d76c.png",
+    "static/media/lid-image-5.png": "/static/media/lid-image-5.d54c8ff5ae8cee66c31c.png",
+    "static/media/lid-image-15.png": "/static/media/lid-image-15.58b486346b8ade808d67.png",
+    "static/media/lid-image-8.png": "/static/media/lid-image-8.eb34119d772f68b9208f.png",
+    "static/media/lid-image-17.png": "/static/media/lid-image-17.5e3448c5d348e79170fc.png",
+    "static/media/lid-image-22.png": "/static/media/lid-image-22.6503384ffb85d49b025e.png",
+    "static/media/lid-image-3.png": "/static/media/lid-image-3.91050456d83f6039f677.png",
+    "static/media/lid-image-4.png": "/static/media/lid-image-4.a3fdc4fec79e5bdfbe3c.png",
+    "static/media/lid-image-13.png": "/static/media/lid-image-13.4fbee6a258dc8a38f66e.png",
+    "static/media/lid-image-18.png": "/static/media/lid-image-18.857e69cc4b505b900ba4.png",
+    "static/media/lid-image-20.png": "/static/media/lid-image-20.c04f056787765fe0ad91.png",
+    "static/media/lid-image-21.png": "/static/media/lid-image-21.3402440454ddbee46132.png",
+    "static/media/lid-image-1.png": "/static/media/lid-image-1.543ff8503a1c07453875.png",
+    "static/media/lid-image-14.png": "/static/media/lid-image-14.4076a07d777f86a7266f.png",
+    "static/media/lid-image-16.png": "/static/media/lid-image-16.22cf613c5a7f5318426e.png",
+    "static/media/lid-image-11.png": "/static/media/lid-image-11.33b8efeb7fecfe74633c.png",
+    "static/media/lid-image-9.png": "/static/media/lid-image-9.91d1984d6d63f721d7d9.png",
+    "static/media/lid-image-12.png": "/static/media/lid-image-12.1f1f773a8340f3491c9f.png",
+    "static/media/lid-image-6.png": "/static/media/lid-image-6.4b55265022dc03725d82.png",
+    "static/media/lid-image-10.png": "/static/media/lid-image-10.f7480f74bcd2ade0cd26.png",
+    "index.html": "/index.html",
+    "main.ab189f54.css.map": "/static/css/main.ab189f54.css.map",
+    "main.cabd6900.js.map": "/static/js/main.cabd6900.js.map",
+    "453.caa0a741.chunk.js.map": "/static/js/453.caa0a741.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab189f54.css",
+    "static/js/main.cabd6900.js"
+  ]
+}
