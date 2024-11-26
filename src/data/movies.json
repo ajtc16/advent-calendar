@@ -1,0 +1,225 @@
+[
+  {
+    "day": 1,
+    "title": "Home Alone",
+    "description": "An 8-year-old boy defends his house from burglars after being left home alone by his family.",
+    "image": "./assets/home-alone.jpg",
+    "platforms": [
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-a239361f-b281-4677-bc33-6a3ad9f5621d" }
+    ]
+  },
+  {
+    "day": 2,
+    "title": "Elf",
+    "description": "A man raised as an elf at the North Pole journeys to New York to find his biological father.",
+    "image": "./assets/elf.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.712a5b64-2b9b-4a4f-a965-ceae2917dfe4" },
+      { "name": "HBO Max", "url": "https://www.max.com/ec/es/movies/el-duende/2d36a447-3586-40ab-a584-8309ef05dd38" }
+    ]
+  },
+  {
+    "day": 3,
+    "title": "The Polar Express",
+    "description": "A young boy embarks on a magical train ride to the North Pole.",
+    "image": "./assets/polar-express.jpg",
+    "platforms": [
+      { "name": "HBO Max", "url": "https://www.max.com/movies/polar-express/f98c234d-660a-417e-9732-0d920d4b40f8" }
+    ]
+  },
+  {
+    "day": 4,
+    "title": "How the Grinch Stole Christmas",
+    "description": "The Grinch plots to ruin Christmas for the village of Whoville.",
+    "image": "./assets/how-the-grinch-stole-christmas.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/dr-seuss-how-the-grinch-stole-christmas/umc.cmc.5ulids6104abycr0xuxju4ee0" }
+    ]
+  },
+  {
+    "day": 5,
+    "title": "A Christmas Carol",
+    "description": "An animated retelling of Charles Dickens' classic story.",
+    "image": "./assets/a-christmas-carol-2009.jpg",
+    "platforms": [
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-8f498e51-90de-4f5d-8cb9-5b4dd4de81dc" }
+    ]
+  },
+  {
+    "day": 6,
+    "title": "The Santa Clause",
+    "description": "A man inadvertently becomes Santa Claus after putting on the suit.",
+    "image": "./assets/the-santa-clause.jpg",
+    "platforms": [
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-1216f88d-738f-4ead-b582-87dabb566373" }
+    ]
+  },
+  {
+    "day": 7,
+    "title": "National Lampoon's Christmas Vacation",
+    "description": "The Griswold family plans a perfect Christmas, but chaos ensues.",
+    "image": "./assets/national-lampoons-christmas-vacation.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ca9f6c5-3835-b089-7d97-674f83aab0f0" },
+      { "name": "HBO Max", "url": "https://www.max.com/movies/national-lampoons-christmas-vacation/16f0162f-b7d8-4ff6-ac08-f291425f7cab" }
+    ]
+  },
+  {
+    "day": 8,
+    "title": "Miracle on 34th Street",
+    "description": "A little girl discovers that Santa Claus is real.",
+    "image": "./assets/miracle-on-34th-street-1994.jpg",
+    "platforms": [
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-ea3b191b-74c3-443e-913f-8825560aea2c" }
+    ]
+  },
+  {
+    "day": 9,
+    "title": "It’s a Wonderful Life",
+    "description": "A man contemplates ending his life but discovers his worth through an angel.",
+    "image": "./assets/frank-capras-its-a-wonderful-life.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.60b74048-8f94-96bb-6ec1-0d0416c36168" }
+    ]
+  },
+  {
+    "day": 10,
+    "title": "Die Hard",
+    "description": "An NYPD officer fights terrorists in a Los Angeles skyscraper.",
+    "image": "./assets/die-hard-1988.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/die-hard/umc.cmc.57svcvuwx4wqhmdi9ok0p6wef" },
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.b0a9f6fa-a155-4fcf-3779-44b47105d67c" }
+    ]
+  },
+  {
+    "day": 11,
+    "title": "The Nightmare Before Christmas",
+    "description": "Jack Skellington, the Pumpkin King, discovers Christmas Town.",
+    "image": "./assets/the-nightmare-before-christmas.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/the-nightmare-before-christmas/umc.cmc.15sv1obrzlxhuf2xhjftbr6ab" }
+    ]
+  },
+  {
+    "day": 12,
+    "title": "Frosty the Snowman",
+    "description": "A magical hat brings Frosty the Snowman to life.",
+    "image": "./assets/rankin-bass-frosty-the-snowman.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.b30a3c60-86b2-419d-b2f7-15c7e5f5629c" }
+    ]
+  },
+  {
+    "day": 13,
+    "title": "Rudolph the Red-Nosed Reindeer",
+    "description": "The classic tale of Rudolph and his shiny red nose.",
+    "image": "./assets/rudolph-the-red-nosed-reindeer.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/rudolph-the-red-nosed-reindeer/umc.cmc.fv6sarqy2chcno2uu9nylgtq" }
+    ]
+  },
+  {
+    "day": 14,
+    "title": "Love Actually",
+    "description": "A story of love and relationships during Christmas.",
+    "image": "./assets/love-actually.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.e2a9f773-7197-839f-4351-8af91ae40c00" },
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/love-actually/umc.cmc.4uh20jmb3nmfzl4pp6fvcc1rd" }
+    ]
+  },
+  {
+    "day": 15,
+    "title": "The Muppet Christmas Carol",
+    "description": "The Muppets bring Charles Dickens' story to life.",
+    "image": "./assets/the-muppet-christmas-carol.jpg",
+    "platforms": [
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-d005716a-a1c6-4126-b5a0-df5fcd37f186" }
+    ]
+  },
+  {
+    "day": 16,
+    "title": "Arthur Christmas",
+    "description": "Arthur embarks on a mission to deliver a misplaced present.",
+    "image": "./assets/arthur-christmas.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/arthur-christmas/umc.cmc.3lin2r9pvwkaqmnb9qnf6q78a" }
+    ]
+  },
+  {
+    "day": 17,
+    "title": "Jingle All the Way",
+    "description": "A father frantically searches for a Turbo Man toy for his son.",
+    "image": "./assets/jingle-all-the-way.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.88a9f683-880e-7c0b-0ec5-4f9b6a0854de" },
+      { "name": "Disney+", "url": "https://www.disneyplus.com/en-gb/browse/entity-8acc90ea-088e-4366-a7ec-7fbaa55b727d" }
+    ]
+  },
+  {
+    "day": 18,
+    "title": "Scrooged",
+    "description": "A cynical TV executive gets haunted by three spirits on Christmas Eve.",
+    "image": "./assets/scrooged.jpg",
+    "platforms": [
+      { "name": "Paramount+", "url": "https://paramountplus.qflm.net/gb1e1g?subId1=2dff73f973ea454e8a66af264710c42f&subId2=justwatch" }
+    ]
+  },
+  {
+    "day": 19,
+    "title": "Klaus",
+    "description": "An animated tale about the origins of Santa Claus.",
+    "image": "./assets/klaus.jpg",
+    "platforms": [
+      { "name": "Netflix", "url": "https://www.netflix.com/title/80183187" }
+    ]
+  },
+  {
+    "day": 20,
+    "title": "The Holiday",
+    "description": "Two women swap homes for Christmas and find love.",
+    "image": "./assets/the-holiday.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.98a9f772-e3d7-5f3f-a440-71a33b7a05f7" }
+    ]
+  },
+  {
+    "day": 21,
+    "title": "The Christmas Chronicles",
+    "description": "Two siblings team up with Santa to save Christmas.",
+    "image": "./assets/the-christmas-chronicles.jpg",
+    "platforms": [
+      { "name": "Netflix", "url": "https://www.netflix.com/title/80199682" }
+    ]
+  },
+  {
+    "day": 22,
+    "title": "Gremlins",
+    "description": "Chaos ensues when a young man breaks three rules of caring for his new pet.",
+    "image": "./assets/gremlins.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.aea9f6fb-e392-2e07-39ec-2d8a35e8aa84" },
+      { "name": "HBO Max", "url": "https://www.max.com/ec/es/movies/gremlins/cecf016e-db71-42fc-95f8-409e4c8d152a" }
+    ]
+  },
+  {
+    "day": 23,
+    "title": "A Charlie Brown Christmas",
+    "description": "Charlie Brown seeks the true meaning of Christmas.",
+    "image": "./assets/a-charlie-brown-christmas.jpg",
+    "platforms": [
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/a-charlie-brown-christmas/umc.cmc.mbxalimrwrtq72wj4h601pyf" }
+    ]
+  },
+  {
+    "day": 24,
+    "title": "White Christmas",
+    "description": "Two war buddies team up to save a Vermont inn.",
+    "image": "./assets/white-christmas.jpg",
+    "platforms": [
+      { "name": "Amazon Prime", "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.d2a9f708-fbcf-46c0-42a7-63b3aa4f4f79" },
+      { "name": "Apple TV", "url": "https://tv.apple.com/us/movie/white-christmas/umc.cmc.17mb7xv34pdren3kj9wt5qahw" }
+    ]
+  }
+]

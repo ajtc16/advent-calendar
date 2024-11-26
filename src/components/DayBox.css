@@ -1,0 +1,203 @@
+/* Container for the present box */
+.present-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    perspective: 1000px; /* For 3D effect */
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  /* Lid of the box */
+  .lid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: left; /* Pivot from the left edge */
+    transform: rotateY(0deg); /* Default closed state */
+    transition: transform 0.8s ease-in-out; /* Smooth animation */
+    z-index: 2; /* Ensure lid is above the base */
+    perspective: 1000px; /* Ensure pseudo-elements work in 3D */
+  }
+  
+/* Top/front of the lid with dynamic images */
+.lid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain; /* Contain image within the lid */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  border-radius: 5px; /* Match the shape of the lid */
+  backface-visibility: hidden; /* Hide back during rotation */
+}
+  
+  /* Back of the lid */
+  .lid::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue; /* Back color */
+    transform: rotateY(180deg); /* Align back face */
+    border-radius: 5px; /* Match the shape of the lid */
+    backface-visibility: hidden; /* Hide front during rotation */
+    z-index: 0; /* Only appear when lid is rotated */
+  }
+  
+  /* Lid open state */
+  .lid.open {
+    transform: rotateY(-95deg); /* Swing the lid open to the left */
+    transition: transform 0.8s ease-in-out; /* Smooth animation */
+  }
+  
+  /* Locked state */
+  .lid.locked {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.6; /* Slightly dim locked lids */
+  }
+  
+  /* Base of the box */
+  .base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #660000; /* Darker color for inside */
+    border-radius: 5px;
+  }
+  
+  /* Inside of the box */
+  .inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #440000, #550000); /* Depth effect */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+  }
+  
+  /* Movie title appearance */
+  .movie-title {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .movie-title.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Specific images for lids */
+.lid.image-1::before {
+  background-image: url('../assets/lid-image-1.png');
+}
+
+.lid.image-2::before {
+  background-image: url('../assets/lid-image-2.png');
+}
+
+.lid.image-3::before {
+  background-image: url('../assets/lid-image-3.png');
+}
+
+.lid.image-4::before {
+  background-image: url('../assets/lid-image-4.png');
+}
+
+.lid.image-5::before {
+  background-image: url('../assets/lid-image-5.png');
+}
+
+.lid.image-6::before {
+  background-image: url('../assets/lid-image-6.png');
+}
+
+.lid.image-7::before {
+  background-image: url('../assets/lid-image-7.png');
+}
+
+.lid.image-8::before {
+  background-image: url('../assets/lid-image-8.png');
+}
+
+.lid.image-9::before {
+  background-image: url('../assets/lid-image-9.png');
+}
+
+.lid.image-10::before {
+  background-image: url('../assets/lid-image-10.png');
+}
+
+.lid.image-11::before {
+  background-image: url('../assets/lid-image-11.png');
+}
+
+.lid.image-12::before {
+  background-image: url('../assets/lid-image-12.png');
+}
+
+.lid.image-13::before {
+  background-image: url('../assets/lid-image-13.png');
+}
+
+.lid.image-14::before {
+  background-image: url('../assets/lid-image-14.png');
+}
+
+.lid.image-15::before {
+  background-image: url('../assets/lid-image-15.png');
+}
+
+.lid.image-16::before {
+  background-image: url('../assets/lid-image-16.png');
+}
+
+.lid.image-17::before {
+  background-image: url('../assets/lid-image-17.png');
+}
+
+.lid.image-18::before {
+  background-image: url('../assets/lid-image-18.png');
+}
+
+.lid.image-19::before {
+  background-image: url('../assets/lid-image-19.png');
+}
+
+.lid.image-20::before {
+  background-image: url('../assets/lid-image-20.png');
+}
+
+.lid.image-21::before {
+  background-image: url('../assets/lid-image-21.png');
+}
+
+.lid.image-22::before {
+  background-image: url('../assets/lid-image-22.png');
+}
+
+.lid.image-23::before {
+  background-image: url('../assets/lid-image-23.png');
+}
+
+.lid.image-24::before {
+  background-image: url('../assets/lid-image-24.png');
+}

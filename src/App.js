@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import CalendarGrid from './components/CalendarGrid';
+import MoviePopup from './components/MoviePopup';
+import Snowfall from './components/Snowfall';
+import movies from './data/movies.json';
 import './App.css';
 
 function App() {
+  const [selectedMovie, setSelectedMovie] = useState(null);
+
+  const handleDayClick = (movie) => {
+    setSelectedMovie(movie);
+  };
+
+  const closePopup = () => {
+    setSelectedMovie(null);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Snowfall />
+      <h1>🎄 Advent Calendar 🎅</h1>
+      <p>Click each day to reveal a Christmas movie!</p>
+      <CalendarGrid movies={movies} onDayClick={handleDayClick} />
+      <MoviePopup movie={selectedMovie} onClose={closePopup} />
+      <Footer />
     </div>
   );
 }
+
+const Footer = () => (
+  <footer className="footer">
+    <p>© {new Date().getFullYear()} Antonio Teran. All rights reserved.</p>
+    <p>Made with ❤️ by Antonio Teran.</p>
+  </footer>
+);
 
 export default App;

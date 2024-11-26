@@ -1,0 +1,104 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9); /* Slightly smaller at the start */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* Full size */
+  }
+}
+
+.movie-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.8s ease-in-out; /* Fade-in animation */
+}
+
+.close-popup {
+  background-color: #aa2222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px; /* Position from the top inside the popup */
+  right: 10px; /* Position from the right inside the popup */
+  font-size: 1rem;
+  border-radius: 5px;
+  z-index: 10; /* Ensure it stays above the content */
+}
+
+.popup-content {
+  background-color: white;
+  color: #aa2222;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+}
+
+.movie-image {
+  max-width: 40%; /* Keep the image size controlled */
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 10px;
+  object-fit: cover;
+  border: 10px solid #ff0000; /* Add a bold red border */
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Festive glowing effect */
+}
+
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allow the text to take up remaining space */
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.movie-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.movie-platforms {
+  margin-top: auto; /* Push links to the bottom */
+}
+
+.movie-platforms h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.movie-platforms ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-platforms ul li {
+  margin: 5px 0;
+}
+
+.movie-platforms ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.movie-platforms ul li a:hover {
+  text-decoration: underline;
+}
