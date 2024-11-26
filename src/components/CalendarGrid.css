@@ -1,10 +1,11 @@
 .calendar-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Automatically adjust columns */
     gap: 20px;
     justify-content: center;
     margin: 20px auto;
     padding: 20px;
     max-width: 500px;
   }
+ 
   
