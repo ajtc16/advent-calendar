@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CalendarGrid from './components/CalendarGrid';
 import MoviePopup from './components/MoviePopup';
 import Snowfall from './components/Snowfall';
 import movies from './data/movies.json';
+import { isMobile, isTablet, isDesktop, browserName } from 'react-device-detect';
 import './App.css';
 
 function App() {
@@ -15,6 +16,32 @@ function App() {
   const closePopup = () => {
     setSelectedMovie(null);
   };
+
+  const logUserVisit = async () => {
+    try {
+      await fetch("http://localhost:5000/log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          deviceType: isMobile
+            ? "Mobile"
+            : isTablet
+            ? "Tablet"
+            : isDesktop
+            ? "Desktop"
+            : "Unknown",
+          browser: browserName,
+          timestamp: new Date().toISOString(),
+        }),
+      });
+    } catch (error) {
+      console.error("Failed to log user visit:", error);
+    }
+  };
+
+  useEffect(() => {
+    logUserVisit();
+  }, []);
 
   return (
     <div className="App">
